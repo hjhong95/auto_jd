@@ -23,7 +23,7 @@ async function changeFile() {
     // if (DualKey) {
     //  content = content.replace(/var DualKey = ''/, `var DualKey = '${DualKey}'`);
     // }
-    content = content.replace(/var OtherKey = ''/, `var Key = `${OtherKey}``);
+    content = content.replace(/var OtherKey = ``/, `var Key = ${OtherKey}`);
     await fs.writeFileSync('./JD_DailyBonus.js', content, 'utf8')
 }
 
