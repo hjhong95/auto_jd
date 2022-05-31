@@ -1,4 +1,4 @@
-name: Github JDSign-in bot
+name: Github auto_jd
 
 on: # 触发条件
     push:
